@@ -45,7 +45,7 @@ const education: Education[] = [
   {
     id: 2,
     degree: "Bachelor's in Computer Science",
-    institution: "State University",
+    institution: "University Descomplica ",
     period: "2022 - 2025",
     description: "Focus on Software Development and Databases. Final project on recommendation systems."
   }
