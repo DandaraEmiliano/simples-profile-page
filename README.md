@@ -24,10 +24,10 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <GIT_URL>
+git clone https://github.com/DandaraEmiliano/simples-profile-page.git
 
 # Step 2: Navigate to the project directory.
-cd <PROJECT_NAME>
+cd simples-profile-page
 
 # Step 3: Install the necessary dependencies.
 npm i
