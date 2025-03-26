@@ -48,7 +48,7 @@ const Hero: React.FC = () => {
           
           <div className="md:w-2/3 stagger-animate">
             <span className="inline-block text-sm md:text-base text-portfolio-primary font-medium mb-3 px-3 py-1 bg-portfolio-primary/5 rounded-full">
-              Software Engineer • +6 years of experience
+              Software Engineer • 6+ years of experience
             </span>
             
             <h1 className="text-4xl md:text-6xl font-bold text-balance mb-6">

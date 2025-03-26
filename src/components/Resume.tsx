@@ -28,39 +28,25 @@ const experiences: Experience[] = [
   {
     id: 1,
     role: "Senior Software Engineer",
-    company: "Tech Solutions Ltd",
-    period: "2020 - Present",
+    company: "Group Carrefour Brazil",
+    period: "2021 - Present",
     description: "Development of scalable web applications using React, Node.js, and AWS. Technical leadership of a team of 5 developers."
   },
   {
     id: 2,
     role: "Full Stack Developer",
-    company: "Digital Innovations",
-    period: "2017 - 2020",
+    company: "Hospital Israelita Albert Einstein",
+    period: "2019 - 2021",
     description: "Implementation of web applications and REST APIs using JavaScript, TypeScript, React, and Express. Integration with payment and authentication systems."
   },
-  {
-    id: 3,
-    role: "Front-end Developer",
-    company: "Web Creative Agency",
-    period: "2015 - 2017",
-    description: "Creation of interactive and responsive interfaces using HTML, CSS, and JavaScript. Collaboration with designers and prototype development."
-  }
 ];
 
 const education: Education[] = [
   {
-    id: 1,
-    degree: "Master's in Computer Science",
-    institution: "Federal University",
-    period: "2018 - 2020",
-    description: "Specialization in Software Engineering and Distributed Systems. Dissertation on microservice architectures."
-  },
-  {
     id: 2,
     degree: "Bachelor's in Computer Science",
     institution: "State University",
-    period: "2014 - 2018",
+    period: "2022 - 2025",
     description: "Focus on Software Development and Databases. Final project on recommendation systems."
   }
 ];
