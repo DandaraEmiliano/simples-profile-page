@@ -40,13 +40,13 @@ const Navbar: React.FC = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
             <a href="#projects" className="nav-link">
-              Projetos
+              Projects
             </a>
             <a href="#resume" className="nav-link">
-              Currículo
+              Resume
             </a>
             <a href="#contact" className="nav-link">
-              Contato
+              Contact
             </a>
           </nav>
 
@@ -54,7 +54,7 @@ const Navbar: React.FC = () => {
           <button 
             onClick={toggleMenu} 
             className="md:hidden text-portfolio-dark focus:outline-none"
-            aria-label={isOpen ? "Fechar menu" : "Abrir menu"}
+            aria-label={isOpen ? "Close menu" : "Open menu"}
           >
             {isOpen ? <X /> : <Menu />}
           </button>
@@ -73,21 +73,21 @@ const Navbar: React.FC = () => {
             className="block nav-link py-2"
             onClick={() => setIsOpen(false)}
           >
-            Projetos
+            Projects
           </a>
           <a 
             href="#resume" 
             className="block nav-link py-2"
             onClick={() => setIsOpen(false)}
           >
-            Currículo
+            Resume
           </a>
           <a 
             href="#contact" 
             className="block nav-link py-2"
             onClick={() => setIsOpen(false)}
           >
-            Contato
+            Contact
           </a>
         </div>
       </div>

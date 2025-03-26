@@ -48,15 +48,15 @@ const Hero: React.FC = () => {
           
           <div className="md:w-2/3 stagger-animate">
             <span className="inline-block text-sm md:text-base text-portfolio-primary font-medium mb-3 px-3 py-1 bg-portfolio-primary/5 rounded-full">
-              Software Engineer • +6 anos de experiência
+              Software Engineer • +6 years of experience
             </span>
             
             <h1 className="text-4xl md:text-6xl font-bold text-balance mb-6">
-              Construindo <span className="text-portfolio-primary">soluções digitais</span> com precisão e elegância
+              Building <span className="text-portfolio-primary">digital solutions</span> with precision and elegance
             </h1>
             
             <p className="text-lg md:text-xl text-portfolio-muted mb-8 text-balance">
-              Desenvolvedora full-stack com mais de 6 anos de experiência, apaixonada por criar experiências digitais intuitivas e de alto desempenho. Transformando ideias em código limpo e eficiente.
+              Full-stack developer with over 6 years of experience, passionate about creating intuitive and high-performance digital experiences. Transforming ideas into clean and efficient code.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -64,13 +64,13 @@ const Hero: React.FC = () => {
                 href="#projects"
                 className="btn px-6 py-3 bg-portfolio-primary text-white rounded-lg transition duration-300 hover:bg-portfolio-primary/90 hover:shadow-lg text-center"
               >
-                Ver projetos
+                View projects
               </a>
               <a
                 href="#contact"
                 className="btn px-6 py-3 border border-portfolio-primary text-portfolio-primary rounded-lg transition duration-300 hover:bg-portfolio-primary/5 text-center"
               >
-                Entre em contato
+                Get in touch
               </a>
             </div>
           </div>

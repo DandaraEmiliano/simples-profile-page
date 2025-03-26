@@ -29,39 +29,39 @@ const experiences: Experience[] = [
     id: 1,
     role: "Senior Software Engineer",
     company: "Tech Solutions Ltd",
-    period: "2020 - Presente",
-    description: "Desenvolvimento de aplicações web escaláveis utilizando React, Node.js e AWS. Liderança técnica de uma equipe de 5 desenvolvedores."
+    period: "2020 - Present",
+    description: "Development of scalable web applications using React, Node.js, and AWS. Technical leadership of a team of 5 developers."
   },
   {
     id: 2,
     role: "Full Stack Developer",
     company: "Digital Innovations",
     period: "2017 - 2020",
-    description: "Implementação de aplicações web e APIs REST utilizando JavaScript, TypeScript, React e Express. Integração com sistemas de pagamento e autenticação."
+    description: "Implementation of web applications and REST APIs using JavaScript, TypeScript, React, and Express. Integration with payment and authentication systems."
   },
   {
     id: 3,
     role: "Front-end Developer",
     company: "Web Creative Agency",
     period: "2015 - 2017",
-    description: "Criação de interfaces interativas e responsivas utilizando HTML, CSS e JavaScript. Colaboração com designers e desenvolvimento de protótipos."
+    description: "Creation of interactive and responsive interfaces using HTML, CSS, and JavaScript. Collaboration with designers and prototype development."
   }
 ];
 
 const education: Education[] = [
   {
     id: 1,
-    degree: "Mestrado em Ciência da Computação",
-    institution: "Universidade Federal",
+    degree: "Master's in Computer Science",
+    institution: "Federal University",
     period: "2018 - 2020",
-    description: "Especialização em Engenharia de Software e Sistemas Distribuídos. Dissertação sobre arquiteturas de microserviços."
+    description: "Specialization in Software Engineering and Distributed Systems. Dissertation on microservice architectures."
   },
   {
     id: 2,
-    degree: "Bacharel em Ciência da Computação",
-    institution: "Universidade Estadual",
+    degree: "Bachelor's in Computer Science",
+    institution: "State University",
     period: "2014 - 2018",
-    description: "Foco em Desenvolvimento de Software e Banco de Dados. Projeto final sobre sistemas de recomendação."
+    description: "Focus on Software Development and Databases. Final project on recommendation systems."
   }
 ];
 
@@ -111,31 +111,31 @@ const Resume: React.FC = () => {
       <div className="section-container">
         <div className="text-center mb-16 animate-on-scroll">
           <span className="text-sm text-portfolio-primary font-medium px-3 py-1 bg-portfolio-primary/5 rounded-full">
-            Currículo
+            Resume
           </span>
           <h2 className="text-3xl md:text-4xl font-bold mt-4 mb-6">
-            Experiência & Habilidades
+            Experience & Skills
           </h2>
           <p className="text-portfolio-muted max-w-2xl mx-auto">
-            Conheça minha trajetória profissional, formação acadêmica e competências técnicas.
+            Learn about my professional journey, academic background, and technical competencies.
           </p>
           <a 
             href="#"
             className="inline-flex items-center mt-6 px-6 py-3 bg-portfolio-primary text-white rounded-lg transition duration-300 hover:bg-portfolio-primary/90 hover:shadow-lg"
           >
             <Download size={18} className="mr-2" />
-            Baixar CV completo
+            Download full CV
           </a>
         </div>
 
         <div className="grid lg:grid-cols-3 gap-10">
-          {/* Experiência Profissional */}
+          {/* Professional Experience */}
           <div className="animate-on-scroll">
             <div className="flex items-center mb-6">
               <div className="p-3 bg-portfolio-primary/10 rounded-lg mr-4">
                 <Briefcase className="text-portfolio-primary" size={24} />
               </div>
-              <h3 className="text-2xl font-bold">Experiência</h3>
+              <h3 className="text-2xl font-bold">Experience</h3>
             </div>
             <div className="space-y-6">
               {experiences.map((exp) => (
@@ -151,13 +151,13 @@ const Resume: React.FC = () => {
             </div>
           </div>
 
-          {/* Educação */}
+          {/* Education */}
           <div className="animate-on-scroll" style={{ animationDelay: "0.1s" }}>
             <div className="flex items-center mb-6">
               <div className="p-3 bg-portfolio-primary/10 rounded-lg mr-4">
                 <GraduationCap className="text-portfolio-primary" size={24} />
               </div>
-              <h3 className="text-2xl font-bold">Educação</h3>
+              <h3 className="text-2xl font-bold">Education</h3>
             </div>
             <div className="space-y-6">
               {education.map((edu) => (
@@ -173,13 +173,13 @@ const Resume: React.FC = () => {
             </div>
           </div>
 
-          {/* Habilidades */}
+          {/* Skills */}
           <div className="animate-on-scroll" style={{ animationDelay: "0.2s" }}>
             <div className="flex items-center mb-6">
               <div className="p-3 bg-portfolio-primary/10 rounded-lg mr-4">
                 <Award className="text-portfolio-primary" size={24} />
               </div>
-              <h3 className="text-2xl font-bold">Habilidades</h3>
+              <h3 className="text-2xl font-bold">Skills</h3>
             </div>
             <div className="p-6 bg-white rounded-lg shadow-sm border border-gray-100">
               <div className="space-y-4">
