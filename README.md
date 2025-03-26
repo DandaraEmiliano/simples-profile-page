@@ -1,10 +1,24 @@
-# Welcome to my Portfolio 
+# 🌟 Welcome to My Portfolio
 
-**Use your preferred IDE**
+This is my personal portfolio built to showcase my projects, resume, and professional links. It uses a modern and minimalist design to provide a clean and efficient user experience.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. 
+# 🚀 Technologies Used
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+# 💻 Running the Project Locally
+
+You can clone this repository and run the project locally using your preferred IDE.
+
+Requirements
+
+- Node.js & npm - Install with nvm
 
 Follow these steps:
 
@@ -22,27 +36,10 @@ npm i
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+# 📌 About This Project
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+This portfolio is designed to showcase my skills, projects, and online presence, all within a sleek, modern interface.
 
-**Use GitHub Codespaces**
+Feel free to explore and reach out if you'd like to collaborate or have any feedback! 😊
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
 
