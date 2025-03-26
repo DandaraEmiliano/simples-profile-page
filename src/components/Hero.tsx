@@ -1,5 +1,6 @@
 
 import React, { useEffect, useRef } from 'react';
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const Hero: React.FC = () => {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -37,10 +38,17 @@ const Hero: React.FC = () => {
       <div className="absolute bottom-1/3 left-1/4 w-80 h-80 bg-portfolio-secondary/10 rounded-full blur-3xl -z-10" />
       
       <div className="section-container">
-        <div className="max-w-3xl mx-auto" ref={heroRef}>
-          <div className="stagger-animate">
+        <div className="max-w-3xl mx-auto flex flex-col md:flex-row items-center gap-8 md:gap-12" ref={heroRef}>
+          <div className="md:w-1/3 flex justify-center">
+            <Avatar className="w-48 h-48 border-4 border-portfolio-primary/20 shadow-xl">
+              <AvatarImage src="/lovable-uploads/5bf45d38-e215-4d4c-a9b1-9f68f292e0a1.png" alt="Profile photo" />
+              <AvatarFallback className="text-3xl bg-portfolio-primary/10">SE</AvatarFallback>
+            </Avatar>
+          </div>
+          
+          <div className="md:w-2/3 stagger-animate">
             <span className="inline-block text-sm md:text-base text-portfolio-primary font-medium mb-3 px-3 py-1 bg-portfolio-primary/5 rounded-full">
-              Software Engineer
+              Software Engineer • +6 anos de experiência
             </span>
             
             <h1 className="text-4xl md:text-6xl font-bold text-balance mb-6">
@@ -48,7 +56,7 @@ const Hero: React.FC = () => {
             </h1>
             
             <p className="text-lg md:text-xl text-portfolio-muted mb-8 text-balance">
-              Desenvolvedor full-stack apaixonado por criar experiências digitais intuitivas e de alto desempenho. Transformando ideias em código limpo e eficiente.
+              Desenvolvedora full-stack com mais de 6 anos de experiência, apaixonada por criar experiências digitais intuitivas e de alto desempenho. Transformando ideias em código limpo e eficiente.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
