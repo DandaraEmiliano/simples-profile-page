@@ -14,13 +14,13 @@ const Footer: React.FC = () => {
               Portfolio
             </a>
             <p className="text-portfolio-muted mt-2 max-w-md">
-              Software Engineer especializado em desenvolver aplicações web modernas e de alta performance.
+              Software Engineer specialized in developing modern, high-performance web applications.
             </p>
           </div>
 
           <div className="flex space-x-6">
             <a 
-              href="#" 
+              href="https://github.com/DandaraEmiliano" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 text-portfolio-muted hover:text-portfolio-primary hover:bg-portfolio-primary/5 rounded-lg transition-colors"
@@ -61,18 +61,18 @@ const Footer: React.FC = () => {
         <div className="mt-12 pt-6 border-t border-gray-100">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-portfolio-muted">
-              © {currentYear} Seu Nome. Todos os direitos reservados.
+              © {currentYear} Dandara Emiliano. All rights reserved.
             </p>
             <div className="mt-4 md:mt-0">
               <ul className="flex space-x-6 text-sm">
                 <li>
                   <a href="#" className="text-portfolio-muted hover:text-portfolio-primary transition-colors">
-                    Política de Privacidade
+                    Privacy Policy
                   </a>
                 </li>
                 <li>
                   <a href="#" className="text-portfolio-muted hover:text-portfolio-primary transition-colors">
-                    Termos de Serviço
+                    Terms of Service
                   </a>
                 </li>
               </ul>

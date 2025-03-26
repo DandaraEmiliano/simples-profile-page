@@ -16,15 +16,15 @@ const defaultProjects: Project[] = [
   {
     id: 1,
     title: "Bank Management API",
-    description: "API para gerenciamento bancário com funcionalidades de controle de contas, transações e autenticação de usuários.",
-    tags: ["Java", "Spring Boot", "API REST", "JPA"],
+    description: "API for bank management with account control, transaction, and user authentication features.",
+    tags: ["Java", "Spring Boot", "REST API", "JPA"],
     image: "https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80",
     github: "https://github.com/DandaraEmiliano/Bank-Management-API",
   },
   {
     id: 2,
-    title: "Sistema de Biblioteca",
-    description: "Sistema completo para gerenciamento de biblioteca com cadastro de livros, empréstimos e controle de usuários.",
+    title: "Library System",
+    description: "Complete system for library management with book registration, loans, and user control.",
     tags: ["Java", "Spring Boot", "Thymeleaf", "PostgreSQL"],
     image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     github: "https://github.com/DandaraEmiliano/Biblioteca-Spring",
@@ -32,7 +32,7 @@ const defaultProjects: Project[] = [
   {
     id: 3,
     title: "Product Price Service",
-    description: "Microserviço para gerenciamento de preços de produtos com integração a sistemas externos e cache distribuído.",
+    description: "Microservice for product price management with integration to external systems and distributed cache.",
     tags: ["Java", "Spring Boot", "Microservices", "Redis"],
     image: "https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1744&q=80",
     github: "https://github.com/DandaraEmiliano/ProductPriceService",
@@ -40,7 +40,7 @@ const defaultProjects: Project[] = [
   {
     id: 4,
     title: "Terraform AWS Project",
-    description: "Infraestrutura como código para provisionamento de recursos na AWS, incluindo VPC, EC2, S3 e serviços de monitoramento.",
+    description: "Infrastructure as code for provisioning AWS resources, including VPC, EC2, S3, and monitoring services.",
     tags: ["Terraform", "AWS", "IaC", "DevOps"],
     image: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     github: "https://github.com/DandaraEmiliano/Terraform-AWS-Project",
@@ -48,15 +48,15 @@ const defaultProjects: Project[] = [
   {
     id: 5,
     title: "NestJS API",
-    description: "API moderna construída com NestJS, implementando autenticação JWT, validação de dados e documentação automática.",
+    description: "Modern API built with NestJS, implementing JWT authentication, data validation, and automatic documentation.",
     tags: ["NestJS", "TypeScript", "MongoDB", "Swagger"],
     image: "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     github: "https://github.com/DandaraEmiliano/api-nestjs",
   },
   {
     id: 6,
-    title: "Cultura e Automação DevOps",
-    description: "Projeto demonstrando práticas de DevOps, CI/CD e automação de processos para melhorar o ciclo de desenvolvimento de software.",
+    title: "DevOps Culture and Automation",
+    description: "Project demonstrating DevOps practices, CI/CD, and process automation to improve the software development lifecycle.",
     tags: ["DevOps", "CI/CD", "Docker", "Jenkins"],
     image: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     github: "https://github.com/DandaraEmiliano/cultura-e-automacao-devops",
@@ -64,15 +64,15 @@ const defaultProjects: Project[] = [
   {
     id: 7,
     title: "Todo List App",
-    description: "Aplicativo de lista de tarefas com interface responsiva, persistência de dados e categorização de tarefas.",
+    description: "Todo list application with responsive interface, data persistence, and task categorization.",
     tags: ["React", "JavaScript", "LocalStorage", "CSS"],
     image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80",
     github: "https://github.com/DandaraEmiliano/todolist",
   },
   {
     id: 8,
-    title: "Sistema de Gerenciamento de Tarefas",
-    description: "Sistema completo para gerenciamento de tarefas e projetos em equipe, com atribuições, prazos e notificações.",
+    title: "Task Management System",
+    description: "Complete system for team task and project management, with assignments, deadlines, and notifications.",
     tags: ["Java", "Spring Boot", "React", "PostgreSQL"],
     image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     github: "https://github.com/DandaraEmiliano/sistema-gerenciamento-tarefas",
@@ -114,13 +114,13 @@ const Projects: React.FC = () => {
       <div className="section-container">
         <div className="text-center mb-16 animate-on-scroll">
           <span className="text-sm text-portfolio-primary font-medium px-3 py-1 bg-portfolio-primary/5 rounded-full">
-            Portfólio
+            Portfolio
           </span>
           <h2 className="text-3xl md:text-4xl font-bold mt-4 mb-6">
-            Projetos em destaque
+            Featured Projects
           </h2>
           <p className="text-portfolio-muted max-w-2xl mx-auto">
-            Uma seleção dos meus projetos mais recentes e relevantes, demonstrando minhas habilidades e experiência no desenvolvimento de software.
+            A selection of my most recent and relevant projects, showcasing my skills and experience in software development.
           </p>
         </div>
 
